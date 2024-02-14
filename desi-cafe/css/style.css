@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.7%; 
+    /* 52/1920=0.027083333→2.７％*/
+    padding-right: 7.1%;
+    /* 138/1920=0.071875→7.1％*/
+    position: absolute;  /*position:absolutoとwidth100%はセット*/
+    width: 100%;
+}
+.header__nav ul{
+    display: flex;
+    gap: 50px;
+}
+.header__nav li{
+color: white;
+font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+      "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+h1{
+    width: 227px;
+}
+body{
+    background-color: #E8D9BF;
+}
+.container{
+    max-width: 1020px;
+    padding: 0 10px;
+
+}
+
+
+
+.sub-text{
+    font-size: 30px;
+    margin-top: 105px;
+}
+.main-text{
+    width: 800px;
+    height: 200px;
+    font-size: 82px;
+    margin-top: 70px;
+    
+}
+.catch p{
+    font-size: 23px;
+    width: 800px;
+    line-height: 38px;
+    margin-top: 60px;
+}
+.sub-text,.main-text,.catch p{
+    text-align: center;
+}
+
+   .aboutus{
+    justify-content: space-between;
+   } 
+
+.MENU ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 220px;
+    padding-bottom: 95px;
+    padding-right: 220px;
+    gap: 50px;
+}
+.MENU h4{
+    padding-left: 10px;
+    padding-top: -20px;
+    margin-bottom: 17px;
+    font-size: 38px;
+    color: red;
+}
+.MENU p{
+    font-size: 17px;
+    line-height: 25px;
+}
+
+
+
+.GALLERY{
+    max-width: 100%;
+    display: flex;
+}
+
+.EVENT{
+    width: 1000px;
+    height: 200px;
+    padding: 40px;
+    margin: 455px;
+    border: solid#4f260b;
+}
+.EVENT li{
+    font: size 23px;
+}
+iframe{
+  height: 100vh;
+  filter: grayscale(100%);
+}
+
+footer{
+background-color: white;
+}
+
+.access-inner img{
+    height: 50px;
+    width: 220px;
+    margin-left: 460px;
+    
+}
+footer p{
+    background-color: white;
+}
+.text{
+    margin-top: 80px;
+    font-size: 20px;
+    line-height: 39px;
+    display:table ;
+    margin: auto;
+}
+.copy{
+    margin-top: 80px;
+    font-size: 16px;
+    text-align: center;
+}
+.toTOP{
+    position: fixed;
+    bottom: 133px;
+    top: 100px;
+    right: 20px;
+    width: 125px;
+    height: 125px;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 40px;
+}
