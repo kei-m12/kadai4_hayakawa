@@ -26,14 +26,14 @@ h1{
 body{
     background-color: #E8D9BF;
 }
-.container{
-    max-width: 1020px;
+.aboutus,.MENU,.EVENT{
+    max-width: 1000px;
     padding: 0 10px;
-
 }
-
-
-
+.gazoutext{
+    width: 81px; 
+   margin: auto;
+}
 .sub-text{
     font-size: 30px;
     margin-top: 105px;
@@ -42,8 +42,7 @@ body{
     width: 800px;
     height: 200px;
     font-size: 82px;
-    margin-top: 70px;
-    
+    margin-top: 70px;   
 }
 .catch p{
     font-size: 23px;
@@ -54,11 +53,19 @@ body{
 .sub-text,.main-text,.catch p{
     text-align: center;
 }
+.aboutus{
+    display: flex;
+}
 
-   .aboutus{
-    justify-content: space-between;
-   } 
-
+    
+.aboutus h3{
+    font-size: 44px;
+    margin-top: 61px;
+}
+.aboutuus p{
+    font-size: 16px;
+    margin-top: 26px;
+}
 .MENU ul {
     display: flex;
     justify-content: space-between;
@@ -104,13 +111,17 @@ iframe{
 
 footer{
 background-color: white;
+width: 100%;
+justify-content: space-between;
 }
 
+.access-inner{
+   display: flex;
+}
 .access-inner img{
     height: 50px;
     width: 220px;
     margin-left: 460px;
-    
 }
 footer p{
     background-color: white;
@@ -136,5 +147,17 @@ footer p{
     height: 125px;
     background-color: red;
     border-radius: 50%;
-    font-size: 40px;
+    text-align: center;
+}
+.toTOP h3{
+    font-size: 12px;
+    margin-top: 21px;
+}
+.totop h4{
+    font-size: 30px;
+    margin-top: 21px;
+}
+.totop h5{
+    font-size: 52px;
+    margin-top: 21px;
 }
