@@ -29,24 +29,35 @@ body{
 .aboutus,.MENU,.EVENT{
     max-width: 1000px;
     padding: 0 10px;
+    margin: 0 auto;
 }
-.gazoutext{
-    width: 81px; 
+.MENU .gazoutext,
+.GALLERY .gazoutext, 
+.EVENT .gazoutext, 
+.ACCESS .gazoutext{
+    text-align: center;
+}
+.gazoutext img{
+    height: 78px;
    margin: auto;
+   width: auto;
+   
 }
 .sub-text{
     font-size: 30px;
     margin-top: 105px;
 }
 .main-text{
-    width: 800px;
     height: 200px;
     font-size: 82px;
-    margin-top: 70px;   
+    margin-top: 70px; 
+    
+}
+.catch{
+    text-align: center;
 }
 .catch p{
     font-size: 23px;
-    width: 800px;
     line-height: 38px;
     margin-top: 60px;
 }
@@ -55,29 +66,45 @@ body{
 }
 .aboutus{
     display: flex;
+    align-items: center;
+    
 }
-
+.aboutus > img{
+    width: 54%;
+    border-bottom-right-radius: 84px;
+    margin-top: 105px;
+    
+}
     
 .aboutus h3{
     font-size: 44px;
-    margin-top: 61px;
+    line-height: 61px;
+    margin-top: 55px;
 }
-.aboutuus p{
+.aboutus-text{
+    padding-left: 85px;
+    width: 46%;
+    margin-top: 160px;
+
+}
+.aboutus p{
     font-size: 16px;
-    margin-top: 26px;
+    margin-top: 38px;
+    line-height: 26px;
+}
+.MENU{
+    margin-top: 100px;
 }
 .MENU ul {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
-    padding-left: 220px;
     padding-bottom: 95px;
-    padding-right: 220px;
     gap: 50px;
 }
 .MENU h4{
+    
     padding-left: 10px;
-    padding-top: -20px;
     margin-bottom: 17px;
     font-size: 38px;
     color: red;
@@ -88,21 +115,47 @@ body{
 }
 
 
+.MENU li img{
+    border-top-right-radius: 50px;
+}
+  
 
 .GALLERY{
     max-width: 100%;
+}
+.GALLERY > div{
+    display: flex;
+}
+.GALLERY > div img{
+    width: 20%;
+}
+.EVENT{
+    max-width: 1000px;
+   padding: 40px;
+    
+}
+.EVENT ul{
+    border: solid#4f260b;
+    background-color: #ffff;
+    font-size: 23px;
+    padding: 40px;
+}
+.EVENT li{
+    max-width: 700px;
+    margin: 0 auto;
     display: flex;
 }
 
-.EVENT{
-    width: 1000px;
-    height: 200px;
-    padding: 40px;
-    margin: 455px;
-    border: solid#4f260b;
+.eventtext{
+    text-align: left;
+    margin-left: 45px;
+    text-decoration-line: underline;
+    margin-bottom: 23px;
 }
-.EVENT li{
-    font: size 23px;
+.eventtext-b{
+    text-align: left;
+    margin-left: 45px;
+    text-decoration-line: underline;
 }
 iframe{
   height: 100vh;
@@ -116,12 +169,13 @@ justify-content: space-between;
 }
 
 .access-inner{
+   max-width: 1000px;
+   margin:0 auto;
    display: flex;
 }
 .access-inner img{
     height: 50px;
     width: 220px;
-    margin-left: 460px;
 }
 footer p{
     background-color: white;
@@ -140,8 +194,7 @@ footer p{
 }
 .toTOP{
     position: fixed;
-    bottom: 133px;
-    top: 100px;
+    bottom: 100px;
     right: 20px;
     width: 125px;
     height: 125px;
