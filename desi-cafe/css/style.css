@@ -305,6 +305,7 @@ footer p{
         "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
         font-weight: bold;
     }
+}
    
 
 
@@ -322,7 +323,11 @@ footer p{
     .gazoutext img{
         height: 45px;
     }
-
+    .catch p{
+        font-size: 16px;   
+        line-height: 30px;
+        margin-top: 10px;
+     }
 
     .main-text{
         margin-top: 30px; 
@@ -354,8 +359,8 @@ footer p{
     .MENU ul{
         flex-direction: column;
         align-items: center;
-        margin-left: 35px;
-        margin-right:35px ;
+        margin-left: 25px;
+        margin-right:25px ;
     }
     .MENU h4{
         font-size: 40px;
@@ -382,10 +387,9 @@ footer p{
         margin-bottom: 25px;
 
     }
-    .iframe{
-        width: 100vh;
+    iframe{
+        width: 100%;
         height: 190px;
-    
     }
     .access-inner{
         flex-direction: column;
@@ -396,5 +400,4 @@ footer p{
         margin: 0;
     
     }
-}
 }
