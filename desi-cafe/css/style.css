@@ -133,9 +133,7 @@ body{
     max-width: 100%;
 }
 
-.GALLERY > div img{
-    width: 20%;
-}
+
 .EVENT{
     max-width: 1000px;
    padding: 40px;
